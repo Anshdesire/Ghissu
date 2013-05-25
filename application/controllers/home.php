@@ -18,7 +18,8 @@ $this->load->library('Facebook', $config);
         if($userId == 0){
             // Generate a login url
             $data['url'] = $this->facebook->getLoginUrl(array('scope'=>'email'));
-            $this->load->view('main_index', $data);
+           //  $this->load->view('main_index', $data);
+            $this->load->view('home_view', $data);
         } else {
             // Get user's data and print it
             $user = $this->facebook->api('/me');
@@ -26,10 +27,10 @@ $this->load->library('Facebook', $config);
         }
     } 
 
-	public function index()
-	{
-		$this->load->view('home_view');
-	}
+	// public function index()
+	// {
+		
+	// }
 	function library()
 	{         
 		$this->load->database('default');
