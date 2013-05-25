@@ -110,6 +110,7 @@ $autoload['language'] = array();
 */
 
 $autoload['model'] = array();
+$autoload['libraries'] = array('database','session','language','facebook');
 
 
 $autoload['libraries'] = array('database','session','language','facebook');
