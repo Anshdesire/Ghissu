@@ -1,0 +1,105 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    color: #959595;
+    font: normal 12px/1.8em Arial, Helvetica, sans-serif;
+    /*background: white;*/
+	background:-webkit-gradient(linear,0% 40% ,0% 100% ,from(white) , to(#CCFFFF));
+	
+}
+.MainBody
+{
+    width: 100%;
+	height:auto;
+    margin: 0 auto;
+    padding: 0px;
+}
+.header
+{
+    
+    height: 0px;
+    text-align: center;
+    font-size: 20px;
+    color: White;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+.header h3
+{
+    font-size: 30px;
+    line-height: 40px;
+}
+.left
+{
+    width: 25%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    /*background-color: Fuchsia;*/
+    float: left;
+    text-align: center;
+}
+.left h4
+{
+    font-size: 20px;
+    color: Navy;
+    margin-top: 200px;
+}
+.left h5
+{
+    font-size: 20px;
+    color: Navy;
+}
+.center
+{
+    width: 50%;
+    /*background-color: Red;*/
+    margin-top: -16.1px;
+    margin-left: 25%;
+    padding: 0px;
+    height: auto;
+	float: center;
+}
+.center h1
+{
+    color: Navy;
+    text-align: center;
+    padding: 0 0 0 0;
+    vertical-align: bottom;
+    line-height: 500px;
+}
+.right
+{
+    width: 25%;
+    height: auto;
+    /*background-color: Lime;*/
+    float: right;
+    margin-top: -700px;
+    margin-left: 0px;
+    padding: 0px;
+    color: A6AEC9;
+    text-align: center;
+    /*line-height: 475px;*/
+}
+.footer
+{
+    /*background: yellow;*/
+    /*background-color: Green;*/
+    height: 50px;
+    text-align:center;
+    padding-left:0px;
+    font-size: 10px;
+    color: blue;
+	margin-left:40px;
+    /*margin: -30px 0px 0px 0px;*/
+    width: auto;
+}
+.footer h3
+{
+    font-size: 17px;
+	color:#666666;
+    /*line-height: 20px;*/
+}

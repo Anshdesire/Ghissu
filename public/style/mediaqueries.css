@@ -1,0 +1,368 @@
+@media screen and (max-width: 864px) {
+	#search-box input[type="text"]
+	{
+		font-size:1em;
+	}
+	#search-box input[type="submit"]
+	{
+		font-size:1em;
+	}
+	#logoimg
+	{
+		margin-top:8%
+	}
+}
+@media screen and (max-width: 1064px) {
+	#logoimg
+	{	
+		margin-top:2%;
+	}
+}
+/*@media screen and (max-width: 865px) {
+	
+}*/
+@media screen and (max-width: 768px) {
+	#list
+	{
+		display:none;
+	}
+	#videoimg
+	{
+		padding-top:15%;
+		width:178px;
+	}
+	#logo 
+	{ width:45%;}
+	#content{
+	width:55%;
+	height:auto;
+	float:left;}
+	#text{
+		font-size: 2.3em;
+	}
+	#search-box input[type="text"]
+	{
+		font-size:.84em;
+		width:75%;
+		margin-top:-5px;
+		height:2.3em;
+	}
+	#search-box input[type="submit"]
+	{
+		font-size: .86em;
+		height: 2.7em;
+		margin-left:-11px;
+		width:auto;
+	}
+	#middleThird
+	{
+		width:32.25%;
+	}
+/*	#search
+	{
+		width:72%;
+	}
+	#submit
+	{
+		width:27%;
+		right:5.67288%;
+	}*/
+/*#middlefirst
+{
+	width:50%;
+}
+
+#middlesecond
+{border-right:none;
+    border-left:1px dotted white;	
+	width:49%;
+}
+#middleThird
+{
+	width:100%;
+}*/
+/*#videowrapper {
+       position: relative;
+        padding-bottom:55%; /* 16:9 */       
+       /*height: 0;
+}*/
+#text1
+{
+	font-size:1.5em;
+}
+.box h1
+{
+	font-size:1.5em;
+}
+#videowrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        max-width: 40%;
+        height: 40%;
+		margin:auto;
+		padding-left:30%;
+}
+}
+/*@media screen and (max-width: 700px){
+#logo
+{
+	width:98%;
+}	
+#content
+{
+	width:100%;
+}
+#text 
+{
+	font-size: 2em;
+	padding:0% 0% 0%;
+	padding-left:2%;
+}
+#text span
+{color:#a6d138;   
+}
+#videoimg
+{
+	width:40%;
+}
+/*#search-box
+{
+	padding-left:1%;
+}
+#form-wrapper {
+	width:100%;
+}*/
+/*}*/
+@media screen and (max-width: 600px)
+{
+#logo
+{
+	width:98%;
+}	
+#content
+{
+	width:100%;
+}
+#middlefirst
+{
+	width:50%;
+}
+
+#middlesecond
+{border-right:none;
+    border-left:1px dotted white;	
+	width:49%;
+}
+#search-box input[type="text"]
+	{
+		font-size:1em;
+	}
+	#search-box input[type="submit"]
+	{
+		font-size: 1em;
+	}
+	
+#text 
+{
+	font-size:1.8em;
+	padding:0% 0% 0%;
+	padding-left:2%;
+}
+#text span
+{color:#a6d138;   
+}
+#logoimg
+{
+	width:18%;
+}
+/*#search-box
+{
+	padding-left:1%;
+}
+#form-wrapper {
+	width:100%;
+}	*/
+#middlefirst
+{
+	width:49%;	}
+
+#middlesecond
+{ 	border-right:none;
+ 	width:50%;
+	}
+#middleThird
+{
+	width:100%;
+}
+#canvas
+{
+	 height:50.518551%
+}
+#videowrapper {
+	display:none;
+       position: relative;
+        padding-bottom:55%; /* 16:9 */
+        height: 0;
+}
+#text1
+{
+	padding:0;
+}
+#videowrapper iframe {
+		padding-left:2.5%;
+}
+#alt_text
+{
+	display:block;
+	padding-left:2.5%;
+}
+#alt_text a:link , a:visited 
+{color:white;}
+#alt_text a:hover ,  
+a:active {color:#a6d138;}
+
+}
+@media screen and (max-width: 450px) {
+#middlefirst
+{
+	width:100%;
+	font-size:0.9em;
+}
+#middlesecond
+{   border-left:none;	
+	width:100%;
+	font-size:0.9em;
+}
+#middleThird
+{
+	font-size:0.9em;
+}
+#navbar-left
+{	
+	height:45px;
+	width:20%;
+	float:left;
+	background-image:url(file:///C:/Users/Ankit/Downloads/update/update/img/images.jpg) ;
+	background-repeat:no-repeat;
+	background-position:left top;
+	background-size: 3em;
+	z-index:4;
+	padding: 0em 0em;
+}
+#leftinfo
+{
+	font-size:0.8em;
+}
+#rightinfo
+{
+	font-size:0.8em;
+}
+#navbar-left li > a 
+{	
+	padding: 0em 0em;
+	color:black;
+}
+.list 
+{
+	display:none;
+	opacity:0;
+}
+#navbar-left li:active ul { /* Display the dropdown on hover */
+	left:0; 
+	display:block;
+	background: #2B69AB;
+	color: white;*/
+	font-size: 20px;
+	color:black;
+	/*padding: 0px 5px;/* Bring back on-screen when needed */
+	padding:0;
+}
+#navbar-left li:visited ul { /* Display the dropdown on hover */
+	left:0; 
+	display:block;
+	background: #2B69AB;
+	color: white;*/
+	font-size: 20px;
+	color:black;
+	/*padding: 0px 5px;/* Bring back on-screen when needed */
+	padding:0;
+}
+#navbar-left li:focus ul { /* Display the dropdown on hover */
+	left:0; 
+	display:block;
+	background: #2B69AB;
+	color: white;*/
+	font-size: 20px;
+	color:black;
+	/*padding: 0px 5px;/* Bring back on-screen when needed */
+	padding:0;
+}
+#drop_down
+{
+	display:block;
+}
+#drop_down li
+{
+	padding:0;
+	width: 45px;
+	cursor:none;
+}
+#drop_down ul{
+	background:#fff; /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+	background:blue; /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+	list-style:none;
+	position:absolute;
+	/*left:-9999px;/* Hide off-screen when not needed (this is more accessible than display:none;) */
+	opacity:0;
+	width:100px;
+	margin-top:-5px;
+	background:#2b69ab;
+}
+#drop_down ul li:first-child{
+	padding:4px;
+	/* Introducing a padding between the li and the a give the illusion spaced items */
+	float:none;
+}
+#drop_down ul li{
+	padding:4px;
+	/* Introducing a padding between the li and the a give the illusion spaced items */
+	float:none;
+}
+#drop_down ul a{
+	white-space:nowrap;	/* Stop text wrapping and creating multi-line dropdown items */
+	color:white;
+}
+#drop_down li:active ul{ /* Display the dropdown on hover */
+	opacity:1;/* Bring back on-screen when needed */
+}
+#drop_down li:active ul{ /* Display the dropdown on hover */
+	opacity:1;/* Bring back on-screen when needed */
+}
+#drop_down li:hover a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+	background:#2b69ab;
+	text-decoration:none;
+	
+}
+#drop_down li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+	text-decoration:none;
+}
+#drop_down li:hover ul li a:hover{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */	
+	color:white;
+}
+#navbar-right
+{
+	height:45px;
+	width:80%;
+	float:right;
+	background: #2b69ab;
+}
+#search-box input[type="text"]
+	{
+		font-size:0.8em;
+	}
+	#search-box input[type="submit"]
+	{
+		font-size:0.8em;
+	}
+}

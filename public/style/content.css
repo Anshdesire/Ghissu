@@ -1,0 +1,276 @@
+body
+{
+font-family: 'Titillium Web', sans-serif;
+}
+p{
+font-family: Titillium Web Normal 400 XLight 200 X;
+
+}
+.wrap
+{
+width:1100px;
+margin:auto;
+height:auto;
+}
+.uppertop{
+width:880px;
+height:auto;
+float:right;
+display:block;
+margin-right:15px;
+}
+
+.title{
+width:390px;
+height:150px;
+background-color:#2b69ab;
+}
+#book
+{
+height:100px;
+color:white;
+font-size:1.8em;
+padding-left:10px;
+padding-top:10px;
+}
+#author
+{height:30px;background-color:#2b69ab;
+border:solid white 1px;
+color:white;
+padding-left:10px;
+padding-top:9px;
+padding-right:10px;
+padding-bottom:0px;
+border-bottom:none;
+border-right:none;
+float:right;
+font-size:1.2em;
+}
+.usr
+{
+float:right;
+height:150px;
+width:480px;
+border-bottom:solid #E6E6E6 1px;
+}
+.rating
+{
+height:80px;
+border-bottom:solid grey 1px;
+}
+.ratevalue
+{
+margin-top:2px;
+height:60px;
+width:480px;
+}
+.customise
+{
+margin-top:2px;
+height:60px;
+width:240px;
+border-right:solid grey 1px;
+
+}
+.global{
+margin-top:2px;
+width:240px;
+height:60px;
+float:right;
+}
+
+#review
+{	float:right;
+	width:680px;
+	height:auto;
+	margin-right:-25px;
+	border-right:solid 1px #e2e2e2;
+	border-left:solid 1px #e2e2e2;
+}
+
+#image-info
+{height:400px;
+width:220px;
+padding:10px;
+float:left;
+}
+#book-info
+{
+height:80px;
+width:170px;
+background-color:#2b69ab;
+margin-top:15px;
+margin-left:10px;
+
+}
+
+#book-info  p
+{float:left;
+font-weight:bold;
+margin:0px;
+margin-left:5px;
+color:white;
+}
+#book-info  p span
+{font-weight:normal;
+font-style:italic;
+}
+.review img
+{margin-top:5px;
+height:300px;
+
+padding:0px 10px 0px 10px;
+padding-top:0;
+
+}
+.usereview{
+width:580px;
+height:40px;
+background-color: #2b69ab;
+margin:10px 0px 10px 10px;
+
+}
+.review .tag
+{float:left;
+margin-left:0px;
+margin-top:5px;
+}
+.review .tag li
+{margin-top:-5px;
+height:30px;
+display:block;
+float:left;
+
+
+padding-right:10px;
+padding-left:5px;
+font-size:25px;
+border-right:solid green 2px;
+
+}
+.review .tag li:last-child
+{border-right:none;
+
+}
+
+
+.review .tag li a
+{
+text-decoration:none;
+border-right:10px;
+color:#2b69ab;
+}
+#comp-table{
+width:250px;
+	height:1000px;
+	float:right;
+	margin-left:10px;
+	
+
+}
+#comp-table p
+{
+margin-left:15px;
+
+font-size:19px;
+padding:8px;
+}
+#comp-table table
+{
+
+width:230px;
+border-collapse:collapse;
+}
+#comp-table table img
+{padding-top:0.5px;
+}
+
+th
+{
+width:230px;
+padding:3px;
+text-align:center;
+color:#2b69ab;
+}
+tr
+{text-align:center;
+border-bottom:solid #E8E8E8 1px;
+}
+td
+{
+padding:3px;
+}
+table tr th
+{border-bottom:solid grey 1px;
+}
+#review p
+{
+	font-family: Georgia, "Times New Roman", Times, serif; 
+	font-weight:bold;
+	font-size:20px;
+	
+	
+}
+#toptext{
+color:grey;
+margin-bottom:15px;
+	padding-left:20px;;}
+
+.ques
+{margin-top:20px;
+font-size:2em;
+font-weight:bold;
+}
+.username
+{margin-top:20px;
+font-size:1.5em;
+font-weight:bold;
+}
+.customise p 
+{ font-weight:bold;
+width:130px;
+height:20px;
+text-align:center;
+margin-top:10px;color: #2b69ab;
+font-size:1.3em;
+}
+#rate1
+{font-weight:bold;
+font-size:3em;
+margin-top:-70px;
+float:right;
+color:black;
+
+}
+
+.global p
+{font-weight:bold;
+width:130px;
+height:20px;
+font-size:1.5em;
+text-align:center;
+color: #2b69ab;
+margin-top:-10px;}
+#rate2
+{float:right;
+font-weight:bold;
+font-size:3em;
+margin-top:-70px;
+color: black;}
+.buy
+{
+width:65px;
+height:30px;
+background-color:#BCBCBC;
+text-align:center;
+color:white;
+padding-top:3px;
+
+}
+.buylink
+{	
+text-decoration:none;
+text-align:center;
+}
+a .buy:hover
+{ background-color:#3076BF;}

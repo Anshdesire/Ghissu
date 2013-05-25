@@ -1,0 +1,49 @@
+/************************************************************************************
+RESET
+*************************************************************************************/
+html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul,
+dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object,
+a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span,
+strong, sub, sup, tt, var, legend, fieldset {
+	margin: 0;
+	padding: 0;
+}
+
+img, fieldset {
+	border: 0;
+}
+
+/* set image max width to 100% */
+
+/* set html5 elements to block */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+footer 
+{
+	/*background: linear-gradient(bottom, rgb(200,200,200) 10%, rgb(255,255,255) 73%);
+	background: -o-linear-gradient(bottom, rgb(200,200,200) 10%, rgb(255,255,255) 73%);
+	background: -moz-linear-gradient(bottom, rgb(200,200,200) 10%, rgb(255,255,255) 73%);
+	background: -webkit-linear-gradient(bottom, rgb(200,200,200) 10%, rgb(255,255,255) 73%);
+	background: -ms-linear-gradient(bottom, rgb(200,200,200) 10%, rgb(255,255,255) 73%);*/
+	color:grey;
+	height:auto;
+}
+#leftinfo
+{	
+	width:auto;
+	float:left;
+	padding:5px 0px 5px 20px;
+	
+}
+#rightinfo
+{
+	color:grey;
+	float:right;
+	text-align:right;
+	padding:5px 20px 5px 20px;
+}
+#rightinfo a
+{
+	color:grey;
+}
